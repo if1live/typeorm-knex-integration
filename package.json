@@ -1,0 +1,39 @@
+{
+  "name": "typeorm-knex-integration",
+  "version": "1.0.0",
+  "description": "use typeorm and knex",
+  "homepage": "https://github.com/if1live/typeorm-knex-integration#readme",
+  "bugs": {
+    "url": "https://github.com/if1live/typeorm-knex-integration/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/if1live/typeorm-knex-integration.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-esm src/index.ts",
+    "typeorm": "typeorm-ts-node-commonjs",
+    "check:watch": "tsc --watch",
+    "clean": "rimraf bulid"
+  },
+  "dependencies": {
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nanoid": "^4.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.10"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.3.3",
+    "@swc/helpers": "^0.4.11",
+    "@types/node": "^16.11.10",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
